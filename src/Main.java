@@ -14,9 +14,11 @@ public class Main {
     HealthyBurger healthyBurger = new HealthyBurger("Bacon", 15000);
     healthyBurger.addHumbergerAddition1("Egg", 5000);
     healthyBurger.addHealthy1Addition("Lentils", 12000);
-
     System.out.println("Total healthy burger price is " + healthyBurger.itemizeHambuger());
 
+    DeluxeBurger deluxeBurger = new DeluxeBurger();
+    deluxeBurger.addHumbergerAddition3("Cannot add anything", 50000);
+    deluxeBurger.itemizeHambuger();
 
     }
 }
